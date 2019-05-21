@@ -1,0 +1,16 @@
+{
+  "name": "serv",
+  "version": "1.0.0",
+  "description": "servidor node com typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/index.ts"
+  },
+  "author": "Pedro e Diego",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.16.1",
+    "express": "^4.17.0"
+  }
+}
