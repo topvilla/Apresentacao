@@ -1,5 +1,5 @@
 import express from "express";
-import { hostname } from "os";
+
 
 
 export default class Server{
@@ -10,7 +10,7 @@ export default class Server{
     }
     get(url:string,callback){
         this.express.get(url,function(req,resp){
-	resp.send("<h2>Dev server</h2><h3>server on </h3>"+ new Date().toString());
+	resp.send("<h2>Dev server teste</h2><h3>server on </h3>"+ new Date().toString());
         });
     }
     listen():void{

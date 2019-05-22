@@ -1,6 +1,6 @@
 FROM node:carbon
 
-WORKDIR /urs/src/
+WORKDIR /urs/app
 
 COPY package*.json ./
 
