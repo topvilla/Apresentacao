@@ -10,7 +10,7 @@ export default class Server{
     }
     get(url:string,callback){
         this.express.get(url,function(req,resp){
-            resp.send("server on"+ new Date().toDateString());
+	resp.send("<h2>Dev server</h2><h3>server on </h3>"+ new Date().toString());
         });
     }
     listen():void{
